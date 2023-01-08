@@ -8,18 +8,16 @@
     <link rel="stylesheet" href="./index.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 </head>
-<body class="head1">
-    <div class="main">
-        <div class="head">
-            <h2>Live user filter</h2>
+<body >
+    <div class="container">
+        <div class="header">
+            <h1 class="title">Live User Filter</h1>
+            <small>Enter the name or other detail</small>
+            <input type="text" id="filter" placeholder="search"/>
         </div>
-        <div class="body">
-            <p>Type the name or country to search.</p>
-            <input type="text" id="search">
-        </div>
-        <div class="elements">
-
-        </div>
+        <ul id="result" class="users-list">
+            <li>Loading...</li>
+        </ul>
     </div>
 </body>
 </html>
