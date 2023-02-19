@@ -15,8 +15,9 @@
 
 }
 .photo img{
-    height: 650px;
-    width: 450px;
+    /* height: 650px;
+    width: 450px; */
+    max-width: 30%;
     border-radius: 10px;
     -webkit-box-shadow: 1px 1px 17px -3px rgba(247,237,247,1);
 -moz-box-shadow: 1px 1px 17px -3px rgba(247,237,247,1);
@@ -29,4 +30,7 @@ margin-top: 50px;
     float: right;
     margin-top: 50px;
     margin-right: 20px;
+}
+a{
+    color: azure;
 }
