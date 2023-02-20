@@ -9,6 +9,9 @@
 }
 .btn-primary{
     border: 0px;
+    margin-top: 2em;
+    width: 100px;
+    /* height: 50px; */
 }
 .box {
     /* border: 2px solid rgb(176, 62, 62); */
@@ -28,4 +31,8 @@
     -moz-box-shadow: 0px 0px 10px 6px rgba(194, 169, 194, 1);
     box-shadow: 0px 0px 10px 6px rgba(194, 169, 194, 1);
     ;
+}
+
+.card-title,.card-text{
+    margin-top: 10%;
 }
