@@ -1,0 +1,51 @@
+.base{
+    border: 2px dotted rgb(0, 0, 0);
+    width: 40%;
+    margin: auto;
+    height: 43rem;
+    border-radius: 30px;
+}
+.main{
+    background-color: rgb(255, 255, 255);
+
+}
+.INP{
+    margin-left: 25%;
+    margin-top: 10%;
+}
+.inputval{
+    height: 30px;
+    width: 250px;
+    border-radius: 5rem;
+    border: 0px;
+    background-color: aqua;
+    text-indent: 20px;
+}
+.submitbtn{
+    height: 32px;
+    border-radius: 10rem;
+    width: 50px;
+    border: 0px;
+    background-color: aqua;
+}
+.inputval:hover{
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    transition: 450ms;
+}
+.submitbtn:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: 450ms;
+}
+.submitbtn:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 0ms;
+}
+.inputval:focus{
+    border: 0px;
+}
+.main{
+    
+}
