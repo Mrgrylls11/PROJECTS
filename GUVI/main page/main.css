@@ -36,3 +36,6 @@
 .card-title,.card-text{
     margin-top: 10%;
 }
+.loginPg{
+    border: 2px solid black;
+}
