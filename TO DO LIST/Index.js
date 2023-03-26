@@ -21,6 +21,8 @@ mybtn.addEventListener('click', () => {
     //created the button for delete
     const cncl = document.createElement('button');
     cncl.innerText = "x";
+    // cncl.add(class: deletebtn)
+    // cncl.classList.add('class' , 'bi-trash3')
     cncl.addEventListener('click', removemyele);
 
     newele.append(cncl);
