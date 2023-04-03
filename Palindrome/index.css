@@ -1,0 +1,44 @@
+.inpcontainer{
+    border: 1px solid black;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.inptext{   
+border: 1px solid black;
+height: 60px;
+width: 400px;
+text-align: center;
+font-size: 70px;
+}
+
+.dispcontainer{
+    border: 1px solid black;
+    height: 60vh;
+    width: 100%;
+}
+
+.displaytext{
+    border: 1px solid black;
+    font-size: 200px;
+    /* margin-left: 15%; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.btn{
+    border: 1px solid black;
+    margin-left: 50%;
+}
+
+.myfoot{
+    border: 1px solid black;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
