@@ -1,44 +1,81 @@
-.inpcontainer{
-    border: 1px solid black;
+body {
+    background-image: url('https://mcdn.wallpapersafari.com/medium/48/66/6FEaS1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.inpcontainer {
+    border: 1px solid transparent;
     margin: auto;
     width: 100%;
     text-align: center;
-    
+    margin-top: 20px;
 }
 
-.inptext{   
-border: 1px solid black;
-height: 60px;
-width: 400px;
-text-align: center;
-font-size: 70px;
+.inptext {
+    height: 60px;
+    width: 400px;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    user-select: none;
+    transition: 200ms;
+    outline: none black;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    border-radius: 20px;
 }
 
-.dispcontainer{
-    border: 1px solid black;
+.inptext:focus {
+    border: none;
+    border-radius: 5em;
+    /* transition: 500ms; */
+    /* outline: none; */
+}
+
+
+.dispcontainer {
+    border: 1px solid transparent;
     height: 60vh;
     width: 100%;
+
 }
 
-.displaytext{
-    border: 1px solid black;
+.displaytext {
+    border: 1px solid transparent;
     font-size: 200px;
     /* margin-left: 15%; */
-    margin-top: 20px;
+    margin-top: 80px;
     margin-bottom: 20px;
     text-align: center;
+    user-select: none;
+    color: rgb(255, 255, 255);
 }
 
-.btn{
-    border: 1px solid black;
-    margin-left: 50%;
+.bttn {
+    /* border: 1px solid black; */
+    margin-left: 44%;
+    user-select: none;
+    width: 200px;
+    height: 100px;
+    transition: 1000ms;
+    background-color: black;
+    font-size: 500px;
 }
 
-.myfoot{
-    border: 1px solid black;
+.bttn:active {
+    transform: translateY(5px);
+    transition: 200ms;
+}
+
+.myfoot {
+    /* border: 1px solid black; */
     text-align: center;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    user-select: none;
+    color: rgb(255, 255, 255);
 }
