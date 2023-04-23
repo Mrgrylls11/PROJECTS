@@ -1,0 +1,36 @@
+.mine {
+    margin-left: 30vw;
+    font-size: 50px;
+    border-radius: 2em;
+    border: 0px solid transparent;
+    text-align: center;
+}
+
+.mine:focus {
+    outline: none;
+    text-transform: uppercase;
+    color: red;
+}
+
+.oplog {
+    text-align: center;
+    margin-top: 35vh;
+    font-size: 150px;
+    user-select: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* background-color: red; */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    user-select: none;
+}
+
+body {
+    background-color: darkgrey;
+    font-family: 'Quicksand', sans-serif;
+}
