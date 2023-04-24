@@ -1,0 +1,21 @@
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: red;
+    margin-bottom: -20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 20px;
+}
+
+body::-webkit-scrollbar {
+    /* overflow: hidden; */
+    display: none;
+}
+
+/* .img2 {
+    width: 15px;
+    height: 200px;
+} */
