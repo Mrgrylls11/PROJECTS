@@ -38,6 +38,10 @@ body {
     background-color: black;
     display: flex;
     flex-wrap: wrap;
+    font-family: 'Alkatra', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Sono', sans-serif;
+font-family: 'Varela Round', sans-serif;
 }
 
 .tagline {
@@ -74,7 +78,12 @@ h1:hover {
     margin-top: 2px;
 }
 
-.circlein {
+.circlein1,
+.circlein2,
+.circlein3,
+.circlein4,
+.circlein5,
+.circlein6 {
     border: 2px solid white;
     border-radius: 5em;
     width: 50px;
@@ -83,15 +92,71 @@ h1:hover {
     margin: auto;
     text-align: center;
 }
-.nums{
-    font-size:x-large;
+
+.nums {
+    font-size: x-large;
     text-align: center;
     margin-top: 13px;
     user-select: none;
 }
-p{
+
+p {
     user-select: none;
 }
-.first:hover .nums1.nums6{
-    background-color: yellow;
+
+.first:hover .circlein1 {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.last:hover .circlein6 {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.even:hover .circlein2 {
+    background-color: white;
+    color: black;
+}
+
+.even:hover .circlein4 {
+    background-color: white;
+    color: black;
+}
+
+.even:hover .circlein6 {
+    background-color: white;
+    color: black;
+}
+
+.odd:hover .circlein1 {
+    background-color: white;
+    color: black;
+}
+
+.odd:hover .circlein3 {
+    background-color: white;
+    color: black;
+}
+
+.odd:hover .circlein5 {
+    background-color: white;
+    color: black;
+}
+
+.second:hover .circlein2 {
+    background-color: white;
+    color: black;
+}
+
+.second_last:hover .circlein5 {
+    background-color: white;
+    color: black;
+}
+.heading{
+    margin-left: 20px;
+    width: 200px;
+    height: 50px;
+    margin-top: 35px;
+    /* background-color: aliceblue; */
 }
