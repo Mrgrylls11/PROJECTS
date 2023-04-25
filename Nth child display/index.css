@@ -23,6 +23,8 @@ div{
     color: white;
     border-radius: 1em;
     border: 4px solid rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: nowrap;
 }
 body{
     background-color: black;
@@ -35,16 +37,24 @@ body{
     text-align: center;
     display: grid;
     align-content: center;
-    margin-left: 100px;
+    margin-left: 5%;
     border: 0px solid transparent;
 }
 h1{
     font-size: 50px;
     user-select: none;
-    transition-duration: 500ms;
+    transition-duration: 50ms;
+    transition-delay: 0ms;
 }
 h1:hover{
     text-shadow: -1px -1px 32px rgba(162,253,0,0.98);
     /* text-shadow: -1px 6px 9px rgba(141,174,85,0.69); */
-    /* transition-delay: 200ms; */
+    transition-delay: 0ms;
+}
+.circle{
+    border: 2px solid white;
+    width: 70%;
+    height: 3em;
+    margin-left: 15%;
+    margin-right: 2%;
 }
