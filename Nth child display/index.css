@@ -39,9 +39,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     font-family: 'Alkatra', cursive;
-font-family: 'Quicksand', sans-serif;
-font-family: 'Sono', sans-serif;
-font-family: 'Varela Round', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Sono', sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .tagline {
@@ -153,7 +153,8 @@ p {
     background-color: white;
     color: black;
 }
-.heading{
+
+.heading {
     margin-left: 20px;
     width: 200px;
     height: 50px;
