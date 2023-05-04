@@ -149,26 +149,26 @@ button:active {
 
 /* light theme starts here */
 
-.mode.number {
+.mode button.number {
     background-color: #071817;
     color: white;
 }
 
-.mode.operator {
+.mode button.operator {
     background-color: #004769;
     color: white;
 }
 
-.mode.number+.container:active {
+.mode button.number:active + .container:active {
     color: yellow;
 }
 
-.mode.equals {
+.mode button.equals {
     background-color: green;
     color: black;
 }
 
-.mode.equals:active {
+.mode button.equals:active {
     color: yellow;
 }
 
@@ -184,33 +184,33 @@ button:active {
 
 /* dark theme starts here */
 
-.mode.dark button.number {
+.dark button.number {
     background-color: yellow;
     color: black;
 }
 
-.mode.dark button.operator {
+.dark button.operator {
     background-color: rgb(32, 228, 209);
     color: black;
 }
 
-.mode.dark button.number+.container:active {
+.dark button.number+.container:active {
     color: yellow;
 }
 
-.mode.dark button.equals {
+.dark button.equals {
     background-color: green;
     color: white;
 }
 
-.mode.dark button.equals:active {
+.dark button.equals:active {
     color: yellow;
 }
 
-.mode.dark .disptext {
+.dark.disptext {
     color: white;
 }
 
-.mode.dark .container {
+.dark.container {
     background-color: rgb(0, 0, 0);
 }
