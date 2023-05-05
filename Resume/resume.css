@@ -56,6 +56,7 @@ h2>.frontend-style {
     animation: myanime 3s linear infinite;
     background: linear-gradient(to right, var(--color1) 0%, var(--color2) 27%, var(--color3) 69%, var(--color4) 88%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     white-space: nowrap;
     user-select: none;
@@ -83,13 +84,14 @@ h2>.frontend-style {
     background: #3498dd;
     background-position: left bottom;
     color: black;
-    background: linear-gradient(to right,rgb(9, 18, 28)20%, rgb(233, 14, 233)50%);
+    background: linear-gradient(to right, rgb(9, 18, 28)20%, rgb(233, 14, 233)50%);
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all .5s ease-out;
     box-shadow: 1px 1px 20px 1px rgb(53, 71, 204);
 }
-.btns:focus{
+
+.btns:focus {
     background-color: black;
 }
 
@@ -108,6 +110,10 @@ p {
     text-align: justify;
 }
 
+.description {
+    margin-top: -10%;
+}
+
 p,
 h1,
 h2 {
@@ -117,12 +123,13 @@ h2 {
 
 .big-img {
     /* filter: blur(1px); */
-    background-blend-mode:darken;
-    margin-left: 40%;
+    background-blend-mode: darken;
+    margin-left: 30%;
     margin-top: -10%;
     transition: 500ms ease-in-out;
 }
-.big-img:hover{
+
+.big-img:hover {
     filter: drop-shadow(0 0 0.75rem rgb(35, 69, 108));
     transition: 500ms ease;
 }
@@ -139,3 +146,18 @@ h2 {
     margin-left: 50px;
 }
 
+.overlay {
+    position: absolute;
+    top: 22%;
+    right: 7%;
+    width: 35%;
+    height: 70%;
+    background: transparent;
+    opacity: .8;
+    transition: 700ms ease;
+}
+
+.overlay:hover {
+    background: rgb(9, 18, 28);
+    transition: 700ms ease;
+}
