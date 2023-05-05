@@ -48,13 +48,7 @@ header {
 .links {
     color: rgb(187, 223, 255);
     text-decoration: none;
-    margin-right: 50px;
-    /* transition: 200ms;
-    position: relative; */
-}
-
-.links:hover {
-    transform: scale(1.9);
+    margin-right: 60px;
 }
 
 
@@ -69,7 +63,7 @@ h2>.frontend-style {
 
 .btns {
     background-color: transparent;
-    border: 1px solid blueviolet;
+    border: 3px solid blueviolet;
     width: 200px;
     height: 70px;
     text-decoration: none;
@@ -78,17 +72,25 @@ h2>.frontend-style {
 }
 
 .btns:hover {
-
-    /* background: linear-gradient(to right, #3494e6, #ec6ead);
+    border: 1px solid blueviolet;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 200px;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    z-index: -1;
+    background: #3498dd;
+    background-position: left bottom;
     color: black;
-    transition: 500ms; */
-    animation: myanime 3s linear infinite;
-    background: linear-gradient(to right, var(--color1) 0%, var(--color2) 27%, var(--color3) 69%, var(--color4) 88%);
-    /* -webkit-background-clip: text; */
-    /* -webkit-text-fill-color: transparent; */
-    white-space: nowrap;
-    user-select: none;
-
+    background: linear-gradient(to right,rgb(9, 18, 28)20%, rgb(233, 14, 233)50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    box-shadow: 1px 1px 20px 1px rgb(53, 71, 204);
+}
+.btns:focus{
+    background-color: black;
 }
 
 @keyframes myanime {
@@ -102,7 +104,7 @@ h2>.frontend-style {
 }
 
 p {
-    width: 500px;
+    width: 600px;
     text-align: justify;
 }
 
@@ -115,10 +117,14 @@ h2 {
 
 .big-img {
     /* filter: blur(1px); */
-    background-blend-mode: lighten;
-    margin-left: 50%;
-    border: 2px solid white;
+    background-blend-mode:darken;
+    margin-left: 40%;
     margin-top: -10%;
+    transition: 500ms ease-in-out;
+}
+.big-img:hover{
+    filter: drop-shadow(0 0 0.75rem rgb(35, 69, 108));
+    transition: 500ms ease;
 }
 
 .container {
@@ -132,3 +138,4 @@ h2 {
 .one {
     margin-left: 50px;
 }
+
