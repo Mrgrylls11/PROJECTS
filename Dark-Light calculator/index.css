@@ -7,6 +7,7 @@
     margin-top: 5px;
 }
 
+
 /* Hide default HTML checkbox */
 .switch input {
     opacity: 0;
@@ -73,7 +74,6 @@ input:checked+.slider:before {
     width: 25em;
     margin-top: 40px;
     border-radius: 3em;
-    /* box-shadow: #003849 2px 2px 2px 2px; */
     backdrop-filter: blur(5px);
 }
 
@@ -86,15 +86,11 @@ body {
     display: grid;
     justify-content: center;
     margin-top: 10%;
-    /* border: 2px solid white; */
 }
 
 .dispbox {
     width: 24em;
-    /* border: 2px solid white; */
     height: 10em;
-    /* margin-top: 50px; */
-    /* font-size: 100px; */
     padding: 0px 0px 0px 0px;
     display: grid;
     justify-content: end;
@@ -131,8 +127,6 @@ button {
     background-color: rgb(239, 239, 30);
     border: 0px solid transparent;
     margin-left: 13px;
-    /* margin-top: 10px; */
-    /* margin-bottom: 20px; */
     transition: all 200ms ease;
 }
 
@@ -146,71 +140,34 @@ button:active {
 .equals {
     height: 160px;
 }
-
+   
 /* light theme starts here */
-
-.mode button.number {
-    background-color: #071817;
+.light button{
+    background-color: #000000;
     color: white;
+    /* box-shadow: 0 0 50px 1px #473434; */
 }
-
-.mode button.operator {
-    background-color: #004769;
-    color: white;
+.light .container{
+    background-color: white;
+    box-shadow: 0 0 50px 1px #ffffff;
 }
-
-.mode button.number:active + .container:active {
-    color: yellow;
-}
-
-.mode button.equals {
-    background-color: green;
+.light .disptext{
     color: black;
 }
-
-.mode button.equals:active {
-    color: yellow;
+.light #char{
+    color: black;
 }
-
-.mode.disptext {
-    color: #071817;
-    background-color: white;
-}
-
-.mode.container {
-    background-color: white;
-}
-
 
 /* dark theme starts here */
-
-.dark button.number {
+.darkmode button{
     background-color: yellow;
-    color: black;
+    color: rgb(0, 0, 0);
+    /* box-shadow: 0 0 50px 1px #8f6e6e; */
+    filter: drop-shadow(1px 1px 200px #ffffff);
 }
-
-.dark button.operator {
-    background-color: rgb(32, 228, 209);
-    color: black;
+.darkmode .container{
+    background-color: #000000;
 }
-
-.dark button.number+.container:active {
-    color: yellow;
-}
-
-.dark button.equals {
-    background-color: green;
+.darkmode .disptext{
     color: white;
-}
-
-.dark button.equals:active {
-    color: yellow;
-}
-
-.dark.disptext {
-    color: white;
-}
-
-.dark.container {
-    background-color: rgb(0, 0, 0);
 }
