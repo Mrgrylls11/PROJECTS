@@ -10,11 +10,11 @@ const disptext = document.querySelector('.disptext');
 inputbtn.forEach(element => {
     element.addEventListener('click', () => {
         if (element.value == 'clear') {
-            disptext.innerHTML = '';
+            disptext.innerHTML = '0';
         }
         else if (element.value == 'erase'){
             var text = disptext.innerHTML.toString();
-            disptext.innerHTML = string.substring(0,string.length-1);
+            disptext.innerHTML = text.substr(0,text.length-1);
         }
         else if(element.value == '(' || element.value == ')'){
 
@@ -22,6 +22,10 @@ inputbtn.forEach(element => {
         }
         else if(element.value == '='){
             disptext.innerHTML = eval(disptext.innerHTML)
+        }
+        else if(disptext.innerHTML == '0'){
+            disptext.innerHTML = '';
+            disptext.innerHTML = element.value;
         }
         else{
             disptext.innerHTML +=element.value;
