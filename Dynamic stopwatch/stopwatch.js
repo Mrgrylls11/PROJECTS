@@ -11,7 +11,7 @@ let interval
 
 start.addEventListener('click', () => {
     milliseconds.innerHTML = '00';
-    interval = setInterval(myfun, 17);
+    interval = setInterval(myfun, 16);
 });
 
 stopseconds.addEventListener('click', () => {
