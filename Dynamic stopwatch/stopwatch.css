@@ -1,9 +1,9 @@
-.main{
+.main {
     margin: auto;
     text-align: center;
 }
 
-footer{
+/* footer {
     bottom: 0;
     left: 0;
     position: fixed;
@@ -12,4 +12,104 @@ footer{
     width: 100%;
     background-color: black;
     color: white;
+    filter: opacity(80%);
+    font-family: 'Gruppo', cursive;
+} */
+button{
+    font-family: 'Orbitron', sans-serif;
+    width: 200px;
+    height: 120px;
 }
+.secondry{
+    /* border: 2px solid red; */
+    /* display: grid; */
+    text-align: center;
+    margin: auto;
+    align-content: center;
+    margin-top: 40px;
+}
+body {
+    font-family: 'Gruppo', cursive;
+    /* font-family: 'Press Start 2P', cursive; */
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(to right, rgba(72, 26, 35, 1.0), rgba(123, 190, 205, 1.0));
+    /* height: 100%; */
+}
+.main{
+    /* font-family: 'Press Start 2P', cursive; */
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    filter: opacity(90%);
+    border-radius: 2em;
+}
+.disp{
+    width: 500px;
+    height: 400px;
+    margin-top: -60px;
+    font-size: 150px;
+    color: white;
+}
+label{
+    font-size: 40px;
+    color: rgb(207, 252, 43);
+}
+/* .start{
+    background-color: green;
+    font-size: 30px;
+    border-radius: 0em 3em 0em 3em;
+    border: 0px solid transparent;
+}
+.stop{
+    background-color: red;
+    font-size: 30px;
+    border: 0px solid transparent;
+}
+.clear{
+    background-color: grey;
+    font-size: 30px;
+    border-radius: 2em 0em 3em 0em;
+    border: 0px solid transparent;
+} */
+
+
+/* 
+<!-- HTML !-->
+<button class="button-74" role="button">Button 74</button>
+
+/* CSS */
+button {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  background-color: #fff;
+}
+
+button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  button {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+} 
