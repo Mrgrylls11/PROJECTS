@@ -9,5 +9,5 @@ copying.addEventListener('click',()=>{
     tag.style.display = "block";
   setTimeout(function() {
     tag.style.display = "none";
-  }, 200);
+  }, 1000);
 })
