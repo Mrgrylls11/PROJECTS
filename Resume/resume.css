@@ -7,6 +7,10 @@
 
 body {
     background-color: rgb(9, 18, 28);
+    background: radial-gradient(circle, #1b1a34 10%, transparent 11%);
+        background-size: 2em 2em;
+        background-color: #09121C;
+        opacity: 1
     font-family: 'Alkatra', cursive;
     font-family: 'Exo 2', sans-serif;
     font-family: 'Quicksand', sans-serif;
@@ -127,10 +131,6 @@ p {
 
 .description {
     margin-top: -10%;
-    /* border: 1px solid blue; */
-    /* display: grid; */
-    /* justify-content:flex-end; */
-    /* width: 80%; */
 }
 
 p,
@@ -173,11 +173,13 @@ h2 {
     width: 35%;
     height: 70%;
     background: transparent;
-    opacity: .8;
+    opacity: .5;
     transition: 700ms ease;
 }
 
 .overlay:hover {
     background: rgb(9, 18, 28);
     transition: 700ms ease;
+    border-radius: 40%;
+    box-shadow: 0 0 5px 10px rgb(9, 18, 28);
 }
