@@ -1,21 +1,76 @@
 footer {
-    position: relative;
+    position: fixed;
     left: 0;
     bottom: 0;
-    text-align: center;
     background-color: red;
-    margin-bottom: -20px;
-    margin-left: -8px;
-    margin-right: -8px;
-    height: 20px;
+    text-align: center;
+    width: 100%;
+    height: 25px;
 }
 
 body::-webkit-scrollbar {
-    /* overflow: hidden; */
     display: none;
 }
+body{
+    background:url(./wave_background.jpg);
+}
 
-/* .img2 {
-    width: 15px;
+.img1 {
+    width: 300px;
     height: 200px;
+    left: 0;
+    -webkit-user-drag: none;
+}
+
+.img2 {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    margin-right: 0;
+    -webkit-user-drag: none;
+}
+
+.midbox {
+    /* width: auto; */
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    min-width: 400px;
+    /* border: 2px solid black; */
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+
+h1 {
+    font-family: 'Acme', sans-serif;
+}
+
+h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h1,h2{
+    user-select: none;
+}
+
+.headbox {
+    display: flex;
+    /* background:linear-gradient(to right, rgb(228, 228, 228) 40%,rgb(220, 220, 12)); */
+    background: rgb(228, 228, 228);
+    background: linear-gradient(90deg, rgba(227, 227, 227, 255) 20%, rgb(216, 216, 216) 33%, rgba(218, 255, 160, 1) 69%, rgba(255, 210, 0, 255) 80%);
+    /* border: 2px solid green; */
+}
+
+/* .container {
+    border: 2px solid black;
+    display: flex;
+    align-content: space-between;
+    mask-repeat: no-repeat;
 } */
+
+.card{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}

@@ -1,0 +1,113 @@
+body {
+    background-color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.headline {
+    color: white;
+    display: grid;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.content {
+    display: grid;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+input {
+    border: 1px solid white;
+    height: 80px;
+    width: 500px;
+    border-radius: 3em;
+    background-color: black;
+    text-indent: 40px;
+    font-weight: 400;
+    font-size: larger;
+    color: white;
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 5%;
+    border-radius: 3em;
+    font-weight: 700;
+    font-size: larger;
+}
+
+h1,
+h2,
+h3 {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    color: black;
+}
+
+.offers {
+    background-color: white;
+    height: 150px;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 0.5em;
+    display: grid;
+    align-items: center;
+    text-indent: 10%;
+}
+
+.container,
+.mid {
+    margin-left: 20%;
+}
+
+.tag {
+    margin-left: 20%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.backbtn {
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.mid {
+    margin-top: 50px;
+    display: flex;
+    width: 800px;
+    /* border: 1px solid white; */
+}
+
+.mid>div>h2,
+h3 {
+    margin-left: 30%;
+}
+
+.mid>.creatorname {
+    width: 300px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 5em;
+}
