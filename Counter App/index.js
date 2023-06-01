@@ -6,35 +6,32 @@ const resetbtn = document.querySelector('#reset');
 var count = 0;
 
 //positive button event listener
-postvbtn.addEventListener('click', () => {
-    // console.log('button clicked');
-    if(dispnum.innerHTML === 'Start'){
+function plus() {
+    if (dispnum.innerHTML === 'Start') {
         count++
     }
-    else if(dispnum.innerHTML <= 0){
+    else if (dispnum.innerHTML <= 0) {
         count++
     }
-    else{
+    else {
         count++
     }
     dispnum.innerHTML = count;
-    console.log(dispnum.innerHTML);
-});
-
-
+}
+postvbtn.addEventListener('click', plus);
 
 //negative button event listener
-negtvbtn.addEventListener('click', () => {
-    // console.log('negative btn');
-    if(dispnum.innerHTML === '0' || dispnum.innerHTML === 'Start'){
+function minus() {
+    if (dispnum.innerHTML === '0' || dispnum.innerHTML === 'Start') {
         alert('number can\'t be less than 0');
         location.reload();
     }
-    else{
+    else {
         count--;
     }
     dispnum.innerHTML = count;
-});
+}
+negtvbtn.addEventListener('click',minus);
 
 
 
@@ -45,3 +42,13 @@ resetbtn.addEventListener('click', () => {
     // location.reload();
 })
 
+document.onkeydown = function (event) {
+    switch (event.keyCode) {
+        case 38:
+            plus();
+            break;
+        case 40:
+            minus();
+            break;
+    }
+};

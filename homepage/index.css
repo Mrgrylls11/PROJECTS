@@ -1,5 +1,5 @@
 footer {
-    position: fixed;
+    position:static;
     left: 0;
     bottom: 0;
     background-color: red;
@@ -73,4 +73,13 @@ h1,h2{
     margin-left: 20px;
     margin-top: 20px;
     margin-right: 20px;
+}
+
+img{
+    border-radius: 5px;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+.container{
+    padding-bottom: 20px;
 }

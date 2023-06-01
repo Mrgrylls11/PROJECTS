@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Armstrong number calculator</title>
+  <link rel="stylesheet" href="./practice.css">
+  <script src="./practice.js" defer></script>
+  <link rel="icon" href="./astronaut.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Orbitron:wght@500&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body class="container">
+  <h1>Armstrong number calculator</h1>
+  <div class="main">
+    <input class="inptext" type="number" pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==10) return false;" />
+    <p class="result">Result!</p>
+  </div>
+  <div class="btn">
+    <button id="button">Enter</button>
+  </div>
+
+</body>
+</html>

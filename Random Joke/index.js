@@ -14,7 +14,7 @@ getbtn.addEventListener('click', () => {
             joke1.innerHTML = result.joke
             joke2.innerHTML = " "
         }
-        else if(result.type == "twopart") {
+        else if (result.type == "twopart") {
             joke1.innerHTML = result.setup
             joke2.innerHTML = result.delivery
         }
