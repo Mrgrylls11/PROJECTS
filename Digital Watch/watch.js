@@ -8,7 +8,7 @@ function myfun() {
     let myhours = time.getHours();
     let myminutes = time.getMinutes();
     let myseconds = time.getSeconds();
-    hours.innerHTML = `${Math.floor(myhours / 2)} <div>HOURS</div>`
+    hours.innerHTML = `${myhours} <div>HOURS</div>`
     minutes.innerHTML = `${myminutes} <div>MINUTES</div>`
     seconds.innerHTML = `${myseconds} <div>SECONDS</div>`
 }
