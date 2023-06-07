@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow Generator</title>
+    <link rel="icon" href="./4215391-200.png">
+    <link rel="stylesheet" href="./box.css">
+    <script src="./box.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="input">
+            <label>HORIZONTAL</label>
+            <input type="range" class="horizontal" h-offset="20px" min="-100" max="100" data-unit="px">
+            <label>VERTICAL</label>
+            <input type="range" class="vertical" min="-100" max="100">
+            <label>BLUR</label>
+            <input type="range" class="blur" min="0" max="100">
+            <label>SPREAD</label>
+            <input type="range" class="spread" min="-100" max="100">
+            <label>COLOR</label>
+            <input type="color" class="color">
+        </div>
+        <div class="output">
+            <div class="mybox"></div>
+            <div class="opbox">
+                <p class="outputxt">box-shadow: 0px 0px 50px 0px #000000</p><i class="fa-solid fa-copy fa-fade fa-lg copybtn" style="color: #0d0d0d;"></i>
+                <div class="hidden" style="visibility: hidden;">Copied</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
