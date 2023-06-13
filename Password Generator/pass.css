@@ -1,0 +1,192 @@
+body {
+    position: relative;
+}
+
+.container {
+    background-color: rgb(0, 0, 0);
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.bubble:nth-child(1) {
+    height: 15cqw;
+    width: 15cqw;
+    box-shadow: 0px 0px 67px 7px #4d54be;
+    top: 15%;
+    left: 15%;
+    background-color: rgb(77, 84, 190);
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce1 8s infinite linear;
+}
+
+@keyframes bounce1 {
+    0% {
+        top: 15%;
+    }
+
+    50% {
+        top: 25%;
+    }
+
+    100% {
+        top: 15%;
+    }
+}
+
+.bubble:nth-child(2) {
+    height: 25cqw;
+    width: 25cqw;
+    box-shadow: 0px 0px 67px 7px rgb(11, 148, 50);
+    right: 10%;
+    top: 10%;
+    background-color: rgb(11, 148, 50);
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce2 6s infinite ease;
+}
+
+@keyframes bounce2 {
+    0% {
+        top: 10%;
+    }
+
+    50% {
+        top: 20%;
+    }
+
+    100% {
+        top: 10%;
+    }
+}
+
+.bubble:nth-child(3) {
+    height: 20cqw;
+    width: 20cqw;
+    box-shadow: 0px 0px 67px 7px rgb(113, 200, 6);
+    background-color: rgb(113, 200, 6);
+    border-radius: 50%;
+    left: 40%;
+    bottom: 5%;
+    position: absolute;
+    animation: bounce3 10s infinite linear;
+}
+
+@keyframes bounce3 {
+    0% {
+        bottom: 5%;
+    }
+
+    50% {
+        bottom: 20%;
+    }
+
+    100% {
+        bottom: 5%;
+    }
+}
+
+.mainbox {
+    height: 70%;
+    width: 60%;
+    background: rgba(255, 255, 255, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.2px);
+    -webkit-backdrop-filter: blur(6.2px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3cqw;
+    color: white;
+    user-select: none;
+}
+
+p {
+    height: 20%;
+    width: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    font-size: 2cqw;
+    margin: 0;
+}
+
+.form {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+
+/* .button-27 {
+    appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+}
+
+.button-27:disabled {
+    pointer-events: none;
+}
+
+.button-27:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.button-27:active {
+    box-shadow: none;
+    transform: translateY(0);
+} */
+input[type='number']{
+    width: 10%;
+    font-size: 1cqw;
+    border: none;
+    background-color: #000000;
+    color: white;
+    /* border-radius: 3em; */
+    text-align: center;
+}
+input[type='number']:focus{
+    outline: none;
+}

@@ -9,7 +9,8 @@ btnn.addEventListener('click', datefun);
 
 function datefun() {
     let DOB = new Date(dateinp.value);
-    if (DOB = 'Invalid Date') {
+    console.log(DOB);
+    if (DOB == 'Invalid Date') {
         alert('no date selected');
         return
     }
