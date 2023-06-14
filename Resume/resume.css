@@ -8,10 +8,9 @@
 body {
     background-color: rgb(9, 18, 28);
     background: radial-gradient(circle, #1b1a34 10%, transparent 11%);
-        background-size: 2em 2em;
-        background-color: #09121C;
-        opacity: 1
-    font-family: 'Alkatra', cursive;
+    background-size: 2em 2em;
+    background-color: #09121C;
+    opacity: 1 font-family: 'Alkatra', cursive;
     font-family: 'Exo 2', sans-serif;
     font-family: 'Quicksand', sans-serif;
     font-family: 'Varela Round', sans-serif;
@@ -59,8 +58,8 @@ header {
 h2>.frontend-style {
     animation: myanime 3s linear infinite;
     /* background: linear-gradient(to right, var(--color1) 0%, var(--color2) 27%, var(--color3) 69%, var(--color4) 88%); */
-    background: rgb(73,78,153);
-background: linear-gradient(90deg, rgba(73,78,153,1) 0%, rgba(148,150,182,1) 14%, rgba(130,20,255,1) 27%, rgba(30,237,141,1) 40%, rgba(176,251,224,1) 53%, rgba(138,148,73,1) 65%, rgba(226,78,245,1) 75%, rgba(78,83,205,1) 86%, rgba(73,78,153,1) 50%);
+    background: rgb(73, 78, 153);
+    background: linear-gradient(90deg, rgba(73, 78, 153, 1) 0%, rgba(148, 150, 182, 1) 14%, rgba(130, 20, 255, 1) 27%, rgba(30, 237, 141, 1) 40%, rgba(176, 251, 224, 1) 53%, rgba(138, 148, 73, 1) 65%, rgba(226, 78, 245, 1) 75%, rgba(78, 83, 205, 1) 86%, rgba(73, 78, 153, 1) 50%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

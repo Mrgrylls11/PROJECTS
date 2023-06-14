@@ -20,23 +20,25 @@
         <div class="mainbox">
             <h1>PASSWORD GENERATOR</h1>
             <p>YOUR PASSWORD DISPLAYS HERE</p>
-            <button class="btn button-27" id="btn-generate">GENERATE!</button>
+            <button class="btn button-27" id="btn-generate">GENERATE</button>
             <form class="form">
-                <label for="password-length-number">Length</label>
-                <input type="number" name="pln" id="password-length-number" class="number-input" min="1" max="50"
-                    value="8">
+                <span><label for="password-length-number">LENGTH</label>
+                    <input type="number" name="pln" id="password-length-number" class="number-input" min="1" max="50"
+                        value="8"></span>
+                <span><label for="lowercase">LOWER CASE</label>
+                    <input type="checkbox" name="lc" id="lowercase" checked></span>
 
-                <label for="lowercase">Lower Case Alphabets</label>
-                <input type="checkbox" name="lc" id="lowercase" checked>
+                <span><label for="lowercase">UPPER CASE</label>
+                    <input type="checkbox" name="uc" id="uppercase"></span>
+                <span><label for="lowercase">NUMBERS</label>
+                    <input type="checkbox" name="num" id="numbers"></span>
+                <span><label for="lowercase">SYMBOLS</label>
+                    <input type="checkbox" name="sym" id="symbols"></span>
 
-                <label for="lowercase">Upper Case Alphabets</label>
-                <input type="checkbox" name="uc" id="uppercase">
 
-                <label for="lowercase">Numbers</label>
-                <input type="checkbox" name="num" id="numbers">
 
-                <label for="lowercase">Symbols</label>
-                <input type="checkbox" name="sym" id="symbols">
+
+
             </form>
         </div>
     </div>
