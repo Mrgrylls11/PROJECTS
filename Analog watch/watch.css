@@ -1,135 +1,100 @@
-body{
-    background-color: black;
-    font-family: 'Concert One', cursive;
-}
-.container {
-    box-shadow: 0px 0px 20px 8px rgb(255, 255, 255);
-    margin: auto;
-    height: 45cqw;
-    width: 45cqw;
-    border: 1px solid rgb(151, 82, 82);
-    border-radius: 44%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+    background-image: url(./pexels-miguel-á-padriñán-255379.jpg);
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: 260%;
-    outline: none;
+    background-size: cover;
+    height: 200dvh;
+    
+}
+
+.container {
+    height: 500px;
+    width: 500px;
     background-color: aqua;
-    font-size: 190%;
+    margin: auto;
+    border-radius: 10%;
+    position: relative;
+    background: rgba(255, 255, 255, 0.38);
+    box-shadow: 0px 0px 58px 10px #6d5f5f;
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+    margin-top: 100px;
 }
-.dot{
-    background-color: rgb(15, 77, 78);
-    height: 3%;
-    width: 3%;
-    border-radius: 5em;
 
-}
-.hour{
-    height: 40%;
-    width: 3%;
+.hour {
     position: absolute;
+    top: 37%;
+    left: 50%;
+    transform-origin: bottom center;
+    width: 15px;
+    height: 150px;
     background-color: black;
-    border-radius: 20em;
-    top: 12%;
-    /* left: 40%; */
-}
-.minute{
-
-}
-.second{
-
+    animation: rotate2 5s infinite linear;
+    border-radius: 50px;
+    box-shadow: 0px 0px 58px 10px #6d5f5f;
 }
 
-.one,
-.two,
-.three,
-.four,
-.five,
-.six,
-.seven,
-.eight,
-.nine,
-.ten,
-.eleven,
-.twelve {
-    /* border: 1px solid black; */
-    height: 2cqw;
-    width: 2cqw;
-    text-align: center;
+.min {
     position: absolute;
-    text-shadow: 0px 0px 15px rgba(0,0,0,0.79);
+    top: 32%;
+    left: 50%;
+    transform-origin: bottom center;
+    width: 10px;
+    height: 200px;
+    border-radius: 50px;
+    background-color: red;
+    animation: rotate 4s infinite linear;
+    box-shadow: 0px 0px 70px 10px #6d5f5f;
 }
 
-.one {
-    right: 22%;
-    top: 5%;
+.sec {
+    height: 200px;
+    width: 3px;
+    transform-origin: bottom center;
+    background-color: rgb(93, 101, 207);
     position: absolute;
+    left: 50.2%;
+    top: 32%;
+    border-radius: 50px;
+    animation: rotate3 3s infinite linear;
+    box-shadow: 0px 0px 80px 10px #6d5f5f;
 }
 
-.two {
-    top: 25%;
-    right: 5%;
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(93, 101, 207);
     position: absolute;
+    left: 48.2%;
+    top: 50%;
+    border-radius: 50px;
 }
 
-.three {
-    right: 0%;
-    top: 48%;
+.black {
+    height: 15px;
+    width: 15px;
     position: absolute;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
 }
 
-.four {
-    bottom: 25%;
-    right: 5%;
+span>div:nth-child(1) {
     position: absolute;
-}
-
-.five {
-    right: 22%;
-    bottom: 5%;
-    position: absolute;
-}
-
-.six {
-    bottom: 0px;
     left: 48%;
-    position: absolute;
+    top: 0%;
 }
-
-.seven {
-    left: 22%;
-    bottom: 5%;
+span>div:nth-child(2){
     position: absolute;
+    right: 0%;
+    top: 50%;
 }
-
-.eight {
-    bottom: 25%;
-    left: 5%;
+span>div:nth-child(3){
     position: absolute;
+    left: 48%;
+    bottom: 0%;
 }
-
-.nine {
-    left: 0;
-    top: 48%;
-}
-
-.ten {
-    top: 25%;
-    left: 5%;
+span>div:nth-child(4){
     position: absolute;
-}
-
-.eleven {
-    left: 22%;
-    top: 5%;
-    position: absolute;
-}
-
-.twelve {
-    top: 0;
-    right: 47%;
-    position: absolute;
+    left: 0%;
+    top: 50%;
 }
