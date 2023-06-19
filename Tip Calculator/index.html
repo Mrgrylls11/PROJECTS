@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIP HIM GOOD!!!</title>
+    <link rel="stylesheet" href="./tip.css">
+    <script src="./tip.js" defer></script>
+    <link rel="icon" href="./pngaaa.com-1428721.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>TIP CALCULATOR</h1>
+        <div class="first">
+            <input type="number" placeholder="Enter the Amount" class="inpnum" maxlength="100000"
+                onKeyPress="if(this.value.length==10) return false;">
+        </div>
+
+        <div class="titles">
+            <h2 class="TIP">TIP</h2>
+            <h2 class="PERSON">PEOPLE</h2>
+        </div>
+
+        <div class="second">
+            <input type="range" class="inptip" min="0" max="100" value="0">
+            <p class="percent">&ensp;0%</p>
+            &ensp;&ensp;&ensp;&ensp;&ensp;
+            <input type="range" class="inperson" min="1" max="25" value="0">
+            <p class="person">&ensp;1</p>
+        </div>
+
+        <div class="third">
+            <div class="boxone">
+                <p style="color: rgb(10, 55, 55);">TOTAL</p>
+                <p class="total" style="color: rgb(17, 113, 59);">0</p>
+                <div class="subtotal1">
+                    <div>
+                        <p>AMOUNT</p>
+                        <p class="tamount">0</p>
+                    </div>
+                    <div>
+                        <p>TIP</p>
+                        <p class="ttip">0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="boxtwo">
+                <p style="color: rgb(10, 55, 55);">PER PERSON</p>
+                <p class="perperson" style="color: rgb(17, 113, 59);">0</p>
+                <div class="subtotal2">
+                    <div>
+                        <p>AMOUNT</p>
+                        <p class="pamount">0</p>
+                    </div>
+                    <div>
+                        <p>TIP</p>
+                        <p class="ptip">0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</body>
+
+</html>
