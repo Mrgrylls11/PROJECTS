@@ -1,0 +1,13 @@
+.cafe {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    
+}
+h1:nth-child(0){
+    font-family: 'Satisfy', cursive;
+    font-size: 200%;
+}
+h1:nth-child(1){
+    font-family: 'Sacramento', cursive;
+}
