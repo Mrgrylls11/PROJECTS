@@ -19,8 +19,3 @@ let capitalize = str.replace(/\b\w/g, function (match) {
 });
 
 console.log(capitalize);
-
-let mine = 'mr blue as a blue car and a blue cycle';
-
-let letter = mine.replace(/\w/g, 'hehe');
-console.log(letter);  
